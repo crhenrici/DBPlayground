@@ -1,4 +1,4 @@
-plan dbplayground::postgres(
+plan dbplay::postgres(
   TargetSpec $targets
 ) {
   $targets.apply_prep
