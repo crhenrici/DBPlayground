@@ -4,7 +4,7 @@ plan dbplayground::postgres (
      $targets.apply_prep
      apply($targets) {
 	class { 'postgresql::server':
-  postgres_password          => 'cre123',
+		postgres_password          => 'test123',
 }
         }
 
